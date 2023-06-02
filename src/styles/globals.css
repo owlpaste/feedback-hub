@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+   font-family: 'Poppins';
+   src: url('../../public/fonts/Poppins.woff2') format('woff2');
+}
+
+@font-face {
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 400;
+   font-display: swap;
+   src: url('../../public/fonts/inter/Inter-Italic.woff2') format('woff2');
+}
+
+.sm\:w-auto {
+   max-width: 95% !important;
+}
